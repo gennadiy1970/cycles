@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cycles 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="slide">
+            <h2>цикл while</h2>
+            <ul>
+                <li>подготовка выполняется перед циклом: <kbd>let i = 0;</kbd> </li>
+                <li>в круглых скобках, после <kbd>while</kbd> происходит проверка </li>
+                <li>в фигурных скобках происходит изменение данных
+                    <span class="comment"> // или состояния системы</span>
+                </li>
+            </ul>
+            <ul>
+                <li>выполнение происходит на каждом шаге цикла:
+                    <ul>
+                        <li>в начале выполнения шага:
+                            <kbd>i &lt; arr.length;</kbd>
+                            <span class="comment">// проверка происходит до входа в открывающую фигурную скобку {</span>
+                        </li>
+                        <li>изменение счетчика и задание шага происходят на каждом шаге цикла:
+                            <kbd>i += 1</kbd>
+                            <span class="comment">// изменение счетчика  необходимо задавать в любом удобном месте внутри {}</span>
+                        </li>
+                        <li>наиболее распостранненые ошибки: не добавили изменение счетчика и неверно задано условие проверки</li>
+                    </ul>
+
+                </li>
+            </ul>
+            <div class="img-wrp center">
+                <img src="../images/while.png" alt="">
+            </div>
+            <a href="./slide8.html" class="next">next</a>
+            <a href="./slide6.html" class="back">back</a>
+        </div>
+    </div>
+</body>
+
+</html>

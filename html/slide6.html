@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cycles 4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="slide">
+            <h2>цикл for</h2>
+            <ul>
+                <li>в круглых скобках, после <kbd>for</kbd> происходит подготовка и частичное выполнение цикла</li>
+                <li>в фигурных скобках происходит изменение данных <span class="comment"> // или состояния системы</span></li>
+                <li>подготовка выполняется один раз: <kbd>let i = 0;</kbd> и затем эта запись игнорируется при всех последующих шагах цикла</li>
+                <li>выполнение происходит на каждом шаге цикла: 
+                    <ul>
+                        <li>в начале выполнения шага: <kbd>i &lt; arr.length;</kbd> <span class="comment">// проверка происходит до входа в открывающую фигурную скобку {</span></li>
+                        <li>в конце выполнения шага: <kbd>i += 1</kbd> <span class="comment">// изменение счетчика происходит при достижении закрывающей фигурной скобки }</span></li>
+                    </ul>
+                     
+                </li>
+                <li>наиболее распостранненые ошибки: неверно задан ключ окончания массива </li>
+            </ul>
+            <div class="img-wrp center">
+                <img src="../images/for.png" alt="">
+            </div>
+            <a href="./slide7.html" class="next">next</a>
+            <a href="./slide5.html" class="back">back</a>
+        </div>
+    </div>
+</body>
+</html>
